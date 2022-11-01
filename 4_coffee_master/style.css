@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #efefef;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #43281c;
+    padding: 15px 0;
+}
+
+.logo_img {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.website_name {
+    color: #fbf2c0;
+    font-size: 20px;
+}
+
+
+/* item section */
+
+.section {
+    background-color: #eee1d5;
+    width: 100%;
+    font-size: small;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+
+.margin_right {
+    margin-right: 25px;
+}
+
+.div_name {
+    text-transform: uppercase;
+    color: #885a2d;
+    margin: 15px 0;
+}
+
+.each_item {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.quantity_item {
+    width: 75%;
+    display: flex;
+}
+
+.quantity {
+    margin-right: 45px;
+}
+
+.description {
+    font-size: smaller;
+    color: #885a2d;
+    padding: 5px 0 0;
+}
+
+.price {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1.5px solid #e2af7d;
+    margin: 12px 0;
+}
+
+
+/* name section */
+
+.input_div {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.label_input {
+    position: absolute;
+    top: -6px;
+    left: 15px;
+    background-color: #eee1d5;
+    padding: 0 3px;
+    font-size: 8px;
+}
+
+.name_input {
+    border: 1.5px solid #573628;
+    width: 100%;
+    padding: 7px;
+    border-radius: 30px;
+    background-color: #eee1d5;
+}
+
+.cctv {
+    width: 30%;
+}
+
+
+/* grid 3 section */
+
+.main_sections {
+    display: flex;
+    padding: 25px;
+}
+
+.order {
+    width: 100%;
+}
+
+
+/* receipt section */
+
+.subtotal {
+    grid-area: subtotal;
+    margin-bottom: 10px;
+}
+
+.price_1 {
+    grid-area: price_1;
+}
+
+.tax {
+    grid-area: tax;
+    margin-bottom: 10px;
+}
+
+.price_2 {
+    grid-area: price_2;
+}
+
+.total {
+    grid-area: total;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.price_3 {
+    grid-area: price_3;
+    font-weight: bold;
+}
+
+.receipt {
+    display: grid;
+    grid-template-areas: ". subtotal price_1" ". tax price_2" " .total price_3";
+    font-size: small;
+    width: 75%;
+    margin: auto;
+}
+
+
+/* order now */
+
+.order_now {
+    margin: 25px 25px 0;
+    border: 1px solid #deb993;
+    border-radius: 25px;
+    background-color: #deb993;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}

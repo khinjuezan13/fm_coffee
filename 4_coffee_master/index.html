@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/coffee_masters_logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cofee Masters</title>
+</head>
+
+<body>
+    <nav>
+        <img src="./img/coffee_masters_logo.png" alt="logo" class="logo_img">
+        <h3 class="website_name">Coffee Masters</h3>
+    </nav>
+
+    <div class="main_sections">
+        <!-- item section -->
+        <section class="section margin_right item">
+            <p class="div_name">Items</p>
+            <div class="each_item">
+                <div class="quantity_item">
+                    <p class="quantity">1x</p>
+                    <div class="item_name">
+                        <h4>Cappucino</h4>
+                        <p class="description">Light Foam</p>
+                    </div>
+                </div>
+                <p class="price">$6.00</p>
+            </div>
+            <hr>
+            <div class="each_item">
+                <div class="quantity_item">
+                    <p class="quantity">1x</p>
+                    <div class="item_name">
+                        <h4>Cappucino</h4>
+                        <p class="description">Almond Milk</p>
+                        <p class="description">Double Espresso Shot</p>
+                    </div>
+                </div>
+                <p class="price">$7.90</p>
+            </div>
+            <hr>
+            <div class="each_item">
+                <div class="quantity_item">
+                    <p class="quantity">1x</p>
+                    <div class="item_name">
+                        <h4>Croissant</h4>
+                        <p class="description">Butter</p>
+                    </div>
+                </div>
+                <p class="price">$5.37</p>
+            </div>
+        </section>
+
+        <div class="order">
+            <!-- name section  -->
+            <section class="section name">
+                <p class="div_name">name</p>
+                <div class="input_div">
+                    <label for="name" class="description label_input">Name for order</label>
+                    <input type="text" id="name" name="name" class="name_input">
+                </div>
+            </section>
+
+            <!-- payment section -->
+            <section class="section payment">
+                <p class="div_name">Payment</p>
+                <div class="input_div">
+                    <label for="card" class="description label_input">Card Number</label>
+                    <input type="text" id="card" name="card" class="name_input">
+                </div>
+                <div class="input_div">
+                    <label for="cctv" class="description label_input">CCTV Number</label>
+                    <input type="text" id="cctv" name="cctv" class="name_input cctv">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section class="receipt">
+        <p class="subtotal">Subtotal:</p>
+        <p class="price_1">$19.27</p>
+
+        <p class="tax">Tax:</p>
+        <p class="price_2">$0.96</p>
+
+        <p class="total">Total:</p>
+        <p class="price_3">$20.23</p>
+    </section>
+
+    <p class="order_now">Place order</p>
+
+</body>
+
+</html>
